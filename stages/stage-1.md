@@ -96,6 +96,7 @@
 
 ```html
     <meta name="application-name" content="DevFest PWA">
+    <meta name="apple-mobile-web-app-title" content="DevFest PWA">
 ```
 Теги для возможности отображения в полноэкранном режиме:
 
