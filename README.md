@@ -26,6 +26,7 @@
     git clone https://github.com/vpozdnyakoff/dev-fest-pwa
 
 Если git не установлен, просто качаем zip-архив с кодом. [Скачать zip](https://github.com/vpozdnyakoff/dev-fest-pwa/archive/master.zip).
+
 Устанавливаем зависимости:
 
     npm install
