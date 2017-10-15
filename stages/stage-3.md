@@ -55,8 +55,8 @@ const store = {
 Также не забудем добавить скрипты в список для кеширования, в сервис воркере `public/sw.js`, переменная `filesToCache`:
 
 ```js
-  '/scripts/store.js',
-  '/scripts/idb-promised.js',
+  'scripts/store.js',
+  'scripts/idb-promised.js',
 ```
 
 Итак, теперь у нас есть хранилище для наших новостей.
