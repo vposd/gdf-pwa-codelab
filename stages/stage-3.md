@@ -108,9 +108,9 @@ function loadNetworkFirst() {
       getLocalNewsData()
         .then(offlineNews => {
           if (!offlineNews.length) {
-            showMessage('warning', 'Вы работаете оффлайн, cохраненных данных нет');
+            showMessage('warn', 'Вы работаете оффлайн, cохраненных данных нет');
           } else {
-            showMessage('warning', 'Вы работаете оффлайн, и просматриваете сохраненные данные от ', getLastUpdated());
+            showMessage('warn', 'Вы работаете оффлайн, и просматриваете сохраненные данные от ' + getLastUpdated());
             updateUI(offlineNews);
           }
         }).catch(e => console.error(e))
